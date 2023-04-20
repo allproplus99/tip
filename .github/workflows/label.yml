@@ -8,11 +8,11 @@
 name: Labeler
 on: [pull_request_target]
 
-jobs:
-  label:
+jobs:products information 
+  label:gtin
 
     runs-on: ubuntu-latest
-    permissions:
+    permissions:to give datap
       contents: read
       pull-requests: write
 
